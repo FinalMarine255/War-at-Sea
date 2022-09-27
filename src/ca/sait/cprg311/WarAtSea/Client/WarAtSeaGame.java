@@ -156,10 +156,10 @@ public class WarAtSeaGame extends Game implements Observer{
 		}
 		
 		//TODO
-		//String serverIp = JOptionPane.showInputDialog("Please enter the server's IP address");
-		//username = JOptionPane.showInputDialog("Please enter the username you wish to use");
-		String serverIp = "localhost";
-		username = "test";
+		String serverIp = JOptionPane.showInputDialog("Please enter the server's IP address");
+		username = JOptionPane.showInputDialog("Please enter the username you wish to use");
+		//String serverIp = "localhost";
+		//username = "test";
 
 		super.gameState = new GameState(12, 25, false, this);
 		
